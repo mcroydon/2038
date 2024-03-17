@@ -30,4 +30,4 @@ An online countdown timer named "2038", aimed at marking the moment at 03:14:07 
 
 ### License
 
-Copyright (c) 2024.
+Copyright (c) 2024. Released under the MIT license.
