@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2038 Countdown</title>
+    <link rel="stylesheet" href="/styles/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+    <div class="container text-center">
+        <div id="currentUnixTimeDisplay" class="my-3 text-muted" tabindex="0" aria-live="polite">
+            <p>Loading current time...</p>
+            <p>Loading 32-bit signed integer time...</p>
+        </div>
+        <h1 class="mt-5 text-muted" tabindex="0" aria-label="Countdown to 03:14:07 UTC on 19 January 2038">Countdown to 03:14:07 UTC on 19 January 2038</h1>
+        <div id="countdownTimer" class="display-4 my-5 text-muted" tabindex="0" aria-live="polite">
+            <!-- Timer will be updated by JavaScript -->
+        </div>
+        <div class="time-unit-selection" role="form">
+            <label for="timeUnitSelector" class="form-label text-muted">Select Time Unit:</label>
+            <select class="form-select" id="timeUnitSelector" aria-describedby="timeUnitHelp">
+                <option value="full">Full</option>
+                <option value="years">Years</option>
+                <option value="months">Months</option>
+                <option value="days">Days</option>
+                <option value="hours">Hours</option>
+                <option value="minutes">Minutes</option>
+                <option value="seconds">Seconds</option>
+            </select>
+            <small id="timeUnitHelp" class="form-text text-muted">
+                Use arrow keys to navigate through options.
+            </small>
+        </div>
+    </div>
+    <script src="/js/countdownLogic.js"></script>
+</body>
+</html>
