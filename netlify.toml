@@ -1,0 +1,5 @@
+# Netlify build and deployment configuration
+
+[build]
+  command = "npm run build"
+  publish = "public"
