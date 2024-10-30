@@ -34,6 +34,8 @@ To deploy the application on Netlify:
 1. Ensure your application is properly set up for Next.js deployment. The `npm run build` script builds the Next.js application.
 2. Follow Netlify's documentation to deploy your Next.js project. You will need to link your GitHub repository and set the build command as `npm run build` and the publish directory as `.next` in Netlify's site settings.
 
+The site is available at https://countdownto2038.netlify.app.
+
 ### License
 
 Copyright (c) 2024. Released under the MIT license.
